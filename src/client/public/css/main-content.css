@@ -1,0 +1,11 @@
+.mainBody {
+    width:1200px;
+    margin:auto;
+    box-shadow: 3px 4px 5px #666, -3px 4px 5px #666;
+    min-height: calc(100% - 115px);
+    margin-bottom:20px
+}
+
+.pageWrapper, html, body, #app {
+    width:100%;
+}

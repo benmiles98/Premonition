@@ -1,0 +1,47 @@
+html,body{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.siteTitle, .userDetailsName {
+    display:inline-block;
+    justify-content: space-between;
+}
+
+.siteTitle {
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.userDetailsName {
+    text-align:right;
+    margin-left:auto;
+}
+
+#titleBar {
+    display:flex;
+    align-items:center;
+}
+
+header {
+    color:white;
+    background:grey;
+    padding:10px;
+}
+
+.mainNav a {
+    text-decoration:none;
+    color:white;
+    flex-direction:row;
+    flex-wrap:nowrap; 
+    justify-content: center;
+    margin:auto;
+    
+}
+
+.mainNav {
+    display:flex;
+    flex-grow:1;
+}
